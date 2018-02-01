@@ -1,4 +1,96 @@
-#body-div {
-     background-color: yellow;
-     background-image: url("goopy bg");
+@font-face {
+     font-family: futurist;
+     src: url(/Users/nicolasgoodrich/Documents/441-goodrichnic/FUTRFW.TTF);
+}
+
+@media only screen and (min-width: 500px) {
+     body {
+          margin: auto;
+          background-color: violet;
+          background-image: url("goopy bg.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-position: center center;
+          background-attachment: fixed;
+     }
+
+     h1 {
+          font-family: futurist, futura, trebuchet;
+          font-size: 25pt;
+          background-color: black;
+          max-width: 80%;
+          max-height: 100%;
+          margin-top: 30px;
+          border-radius: 25px 25px 0px 0px;
+          color: white;
+          margin-bottom: 0;
+     }
+
+     p {
+          max-width: 80%;
+          font-size: 20pt;
+          font-family: futura;
+          color: white;
+          background-color: rgba(0,0,0,80);
+     }
+
+     #my-body {
+          background-color: rgba(0,0,0,50);
+          max-width: 60%;
+          border-radius: 25px 25px 0px 0px;
+     }
+     #hero-image {
+          margin-top: 0px;
+          max-width: 100%;
+          width: 100%;
+          background-color: black;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     body {
+          background-color: violet;
+          background-image: url("goopy bg.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-position: center center;
+          background-attachment: fixed;
+     }
+
+     h1 {
+          font-family: futurist, futura, trebuchet;
+          font-size: 20pt;
+          background-color: black;
+          max-width: 100%;
+          max-height: 100%;
+          margin-top: 30px;
+          border-radius: 25px 25px 0px 0px;
+          margin-bottom: 0;
+          margin-top:3px;
+          color: white;
+     }
+
+     p {
+          max-width: 80%;
+          font-size: 12pt;
+          font-family: futura;
+          color: white;
+          height: 100%;
+     }
+
+     #my-body {
+          background-color: rgba(0,0,0,50);
+          max-width: 80%;
+          border-radius: 25px 25px 0px 0px;
+          position:fixed;
+
+     }
+     #hero-image {
+
+          margin-top: 0px;
+          max-width: 80%;
+          width: 80%;
+          background-color: black;
+          /* position: fixed; */
+     }
 }
