@@ -1,0 +1,3 @@
+# HW-3 Readme for YOUR_NAME
+
+This week's really made me work harder than I'd like to admit. I struggled with the pyramid problem for a long time. A big part of that was that I was forcing a solution with while(){} bindings for too long. But, eventually I decided to try other loops and landed on the for loop and virtually slapped myself. For BizzFuzz I had a good time getting to refamiliarize with the modulo, just because I haven't had to use it much. Now I understand its function a little more. As far as the rest of the chapter goes, it was nice to get a reminder in how functions nest within each other and other bindings within them. 
